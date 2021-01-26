@@ -1,11 +1,11 @@
-# Persistence-Brute-Force
+# Persistence_Brute_Force
 A basic brute force script for small pentests...
 
-Required:
-wordlist users
-wordlist passwords
+Required:<br/>
+wordlist users<br/>
+wordlist passwords<br/>
 
-Permission: chmod + x persistence.sh
+Permission: chmod + x persistence.sh <br/>
 Execution: ./persistence.sh
 
 ### Demo
